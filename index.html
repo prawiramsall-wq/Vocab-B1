@@ -155,7 +155,54 @@ font-weight:bold;
 margin-top:20px;
 color:#666;
 }
+.word-bank{
+background:white;
+padding:25px;
+border-radius:20px;
+margin-bottom:25px;
+box-shadow:0 10px 25px rgba(0,0,0,.08);
+}
 
+.word-bank h2{
+text-align:center;
+color:#0a4d8f;
+margin-bottom:20px;
+}
+
+.word-list{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:12px;
+}
+
+.word-item{
+background:#eef5ff;
+border:2px solid #d8e9ff;
+border-radius:12px;
+padding:10px 15px;
+min-width:120px;
+text-align:center;
+transition:.3s;
+}
+
+.word-item:hover{
+transform:translateY(-2px);
+border-color:#0a66c2;
+}
+
+.word{
+font-size:16px;
+font-weight:700;
+color:#0a4d8f;
+}
+
+.phonetic{
+font-size:12px;
+margin-top:4px;
+color:#666;
+font-style:italic;
+}
 </style>
 </head>
 <body>
@@ -165,6 +212,91 @@ color:#666;
 <div class="header">
 <h1>Animal Vocabulary Challenge</h1>
 <p>Look at each picture and type the correct English word.</p>
+</div>
+
+<div class="word-bank">
+
+<h2>📚 Word Bank</h2>
+
+<div class="word-list">
+
+<div class="word-item">
+<div class="word">giraffe</div>
+<div class="phonetic">/dʒəˈræf/</div>
+</div>
+
+<div class="word-item">
+<div class="word">hippo</div>
+<div class="phonetic">/ˈhɪpoʊ/</div>
+</div>
+
+<div class="word-item">
+<div class="word">eagle</div>
+<div class="phonetic">/ˈiːɡəl/</div>
+</div>
+
+<div class="word-item">
+<div class="word">deer</div>
+<div class="phonetic">/dɪr/</div>
+</div>
+
+<div class="word-item">
+<div class="word">dog</div>
+<div class="phonetic">/dɔːɡ/</div>
+</div>
+
+<div class="word-item">
+<div class="word">penguin</div>
+<div class="phonetic">/ˈpeŋɡwɪn/</div>
+</div>
+
+<div class="word-item">
+<div class="word">dolphin</div>
+<div class="phonetic">/ˈdɑːlfɪn/</div>
+</div>
+
+<div class="word-item">
+<div class="word">panda</div>
+<div class="phonetic">/ˈpændə/</div>
+</div>
+
+<div class="word-item">
+<div class="word">bear</div>
+<div class="phonetic">/ber/</div>
+</div>
+
+<div class="word-item">
+<div class="word">zebra</div>
+<div class="phonetic">/ˈziːbrə/</div>
+</div>
+
+<div class="word-item">
+<div class="word">tiger</div>
+<div class="phonetic">/ˈtaɪɡər/</div>
+</div>
+
+<div class="word-item">
+<div class="word">horse</div>
+<div class="phonetic">/hɔːrs/</div>
+</div>
+
+<div class="word-item">
+<div class="word">sheep</div>
+<div class="phonetic">/ʃiːp/</div>
+</div>
+
+<div class="word-item">
+<div class="word">cow</div>
+<div class="phonetic">/kaʊ/</div>
+</div>
+
+<div class="word-item">
+<div class="word">cat</div>
+<div class="phonetic">/kæt/</div>
+</div>
+
+</div>
+
 </div>
 
 <form id="quizForm"></form>
